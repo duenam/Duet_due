@@ -1,6 +1,6 @@
 ---
 layout: default
-pagination: 
+pagination:
   enabled: true
 autopages:
   title: THECATTITLE
@@ -19,13 +19,13 @@ autopages:
 				<div class="blog-post__wrap">
 
 					{% if post.featured_image %}
-					<a href="{{ post.url }}" class="blog-post__image" style="background-image: url('{{ post.featured_image  }}');">
-						<img src="{{ post.featured_image }}" alt="{{ post.title }}" class="blog-post__image__img">
+					<a href="{{site.baseurl}}{{ post.url }}" class="blog-post__image" style="background-image: url('{{ post.featured_image  }}');">
+						<img src="{{site.baseurl}}{{ post.featured_image }}" alt="{{ post.title }}" class="blog-post__image__img">
 					</a>
 					{% endif %}
 
 					<div class="blog-post__content">
-						<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<h2 class="blog-post__title"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
 						<p class="blog-post__date">{{ post.date | date_to_long_string }}</p>
 						<p class="blog-post__description">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 					</div>
@@ -39,10 +39,10 @@ autopages:
 			{% if paginator.total_pages > 1 %}
 			<article class="blog-post blog-post--pagination">
 				{% if paginator.previous_page %}
-				<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--light pagination-prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+				<a href="{{site.baseurl}}{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--light pagination-prev"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
 				{% endif %}
 				{% if paginator.next_page %}
-				<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--light pagination-next"><span>Older Posts</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+				<a href="{{site.baseurl}}{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--light pagination-next"><span>Older Posts</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 				{% endif %}
 			</article>
 			{% endif %}

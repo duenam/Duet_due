@@ -2,10 +2,10 @@
 title: 'Demo Project'
 subtitle: 'This is a demo'
 date: 2018-06-30 00:00:00
-featured_image: '/images/demo/demo-square.jpg'
+featured_image: '/images/demo/demo-landscape-2.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/demo/demo-landscape-2.jpg)
 
 ## Demo content
 
@@ -50,10 +50,10 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 
 ```html
 <div class="gallery" data-columns="3">
-    <img src="{{ site.baseurl }}/images/demo/demo-portrait.jpg">
-    <img src="{{ site.baseurl }}/images/demo/demo-landscape.jpg">
-    <img src="{{ site.baseurl }}/images/demo/demo-square.jpg">
-    <img src="{{ site.baseurl }}/images/demo/demo-landscape-2.jpg">
+    <img src="/images/demo/demo-portrait.jpg">
+    <img src="/images/demo/demo-landscape.jpg">
+    <img src="/images/demo/demo-square.jpg">
+    <img src="/images/demo/demo-landscape-2.jpg">
 </div>
 ```
 
