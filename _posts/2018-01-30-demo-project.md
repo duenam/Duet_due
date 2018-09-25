@@ -2,10 +2,10 @@
 title: 'Demo Project'
 subtitle: 'This is a demo'
 date: 2018-06-30 00:00:00
-featured_image: '/images/demo/demo-landscape-2.jpg'
+featured_image: '/images/demo/due_cactus_0801.png'
 ---
 
-![](/images/demo/demo-landscape-2.jpg)
+![](/images/demo/due_cactus_0801.png)
 
 ## Demo content
 
@@ -40,7 +40,7 @@ You can throw in some horizontal rules too:
 Here's a really neat custom feature we added – galleries:
 
 <div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
+	<img src="{{site.baseurl}}{{ post.featured_image  }}">
 	<img src="/images/demo/demo-landscape.jpg">
 	<img src="/images/demo/demo-square.jpg">
 	<img src="/images/demo/demo-landscape-2.jpg">
@@ -50,7 +50,7 @@ Inspired by the Galleries feature from WordPress, we've made it easy to create g
 
 ```html
 <div class="gallery" data-columns="3">
-    <img src="{{ site.baseurl }}/images/demo/demo-portrait.jpg">
+    <img src="{{site.baseurl}}{{ post.featured_image  }}">
     <img src="{{ site.baseurl }}/images/demo/demo-landscape.jpg">
     <img src="{{ site.baseurl }}/images/demo/demo-square.jpg">
     <img src="{{ site.baseurl }}/images/demo/demo-landscape-2.jpg">
