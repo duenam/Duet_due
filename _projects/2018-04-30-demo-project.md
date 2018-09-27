@@ -1,11 +1,11 @@
 ---
-title: 'Watchbot Onboarding'
+title: 'Demo Project'
 subtitle: 'This is a demo'
 date: 2018-06-30 00:00:00
-featured_image: '/images/demo/due_cactus_instar.png'
+featured_image: '/images/demo/Watchbot_onboarding_cover.png'
 ---
 
-![](/images/demo/due_cactus_instar.png)
+![](/images/demo/Watchbot_onboarding_cover.png)
 
 ## Demo content
 
@@ -45,7 +45,6 @@ Here's a really neat custom feature we added – galleries:
     <img src="{{ site.baseurl }}/images/demo/demo-square.jpg">
     <img src="{{ site.baseurl }}/images/demo/demo-landscape-2.jpg">
 </div>
-
 
 Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
 
