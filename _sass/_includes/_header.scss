@@ -28,6 +28,7 @@
 	display: block;
 	width: $logo-width;
 	max-width: 80%;
+	margin-top: -14px;
 
 	@include mq(tabletp) {
 		float: left;

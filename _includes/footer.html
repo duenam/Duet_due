@@ -4,7 +4,7 @@
 
 		{% if site.data.settings.footer_settings.logo_image %}
 		<a href="/" class="footer__logo">
-			<img src="{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
+			<img src="{{site.baseurl}}{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
 		</a>
 		{% else %}
 		<a href="/" class="footer__title">
