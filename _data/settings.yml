@@ -3,15 +3,15 @@ basic_settings:
   favicon_image: /images/Untitled-2.png
 
 header_settings:
-  logo_image: /images/duenam_logo.png
+  logo_image: /images/Untitled-2.png
   logo_width: 40
 
 menu_settings:
   menu_items:
-    - title: 'Diary'
-      url: '/blog'
     - title: 'Work'
       url: '/'
+    - title: 'Diary'
+      url: '/blog'
     - title: 'Blog'
       url: '/learning'
     - title: 'About'
@@ -20,11 +20,11 @@ menu_settings:
 footer_settings:
   logo_image: /images/duenam_logo.png
   logo_width: 40
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  footer_tagline: DESIGNED AND IMPLEMENTED BY Duenam
 
 grid_settings:
   overlay_opacity: 0.8
-  grid_spacing: 10
+  grid_spacing: 16
 
 social_settings:
   facebook_url: 'https://www.facebook.com/jekyllthemes/'
