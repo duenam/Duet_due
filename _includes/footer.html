@@ -3,20 +3,19 @@
 	<div class="wrap">
 
 		{% if site.data.settings.footer_settings.logo_image %}
-		<a href="/" class="footer__logo">
+		<!-- <a href="/" class="footer__logo">
 			<img src="{{site.baseurl}}{{ site.data.settings.footer_settings.logo_image }}" class="footer__logo__img">
-		</a>
+		</a> -->
 		{% else %}
 		<a href="/" class="footer__title">
 			{{ site.data.settings.basic_settings.site_title }}
 		</a>
 		{% endif %}
-
-		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+<!--
+		<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p> -->
 
 		<div class="footer__copyright">
-			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
-			<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }} DESIGNED AND IMPLEMENTED BY Duenam </span>
 		</div>
 
 		{% include socials.html %}
