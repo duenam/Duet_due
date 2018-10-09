@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image: /images/duenam_logo.png
   logo_width: 40
-  footer_tagline: | DESIGNED AND IMPLEMENTED BY Duenam
+  footer_tagline: DESIGNED AND IMPLEMENTED BY Duenam
 
 grid_settings:
   overlay_opacity: 0.8
@@ -146,9 +146,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   blockquote:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
+    small_size: 18
+    medium_size: 20
+    large_size: 24
     weight: 300
     letter_spacing: -0.02
     line_height: 1.6
