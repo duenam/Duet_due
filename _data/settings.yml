@@ -1,9 +1,9 @@
 basic_settings:
   site_title: Duenam
-  favicon_image: /images/Untitled-2.png
+  favicon_image: /images/due-favicon.png
 
 header_settings:
-  logo_image: /images/Untitled-2.png
+  logo_image: /images/due-favicon.png
   logo_width: 40
 
 menu_settings:
