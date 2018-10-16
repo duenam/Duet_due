@@ -11,9 +11,9 @@ menu_settings:
     - title: 'Work'
       url: '/'
     - title: 'Diary'
-      url: '/blog'
+      url: '/blog/'
     - title: 'Blog'
-      url: '/learning'
+      url: '/learning/'
     - title: 'About'
       url: '/about'
 
