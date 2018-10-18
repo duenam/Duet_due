@@ -3,13 +3,13 @@ site: Duenam
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: {{site.baseurl}}/:name
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: {{site.baseurl}}/blog/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: {{site.baseurl}}/project/:slug
 
 defaults:
   -
