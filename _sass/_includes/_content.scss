@@ -73,13 +73,26 @@
 		}
 	}
 
-	blockquote,
 	figure {
 		max-width: 90%;
 		margin: 20px auto;
 
 		@include mq(tabletp) {
 			margin: 30px auto;
+		}
+
+		@include mq(laptop) {
+			margin: 40px auto;
+		}
+	}
+
+	blockquote {
+		margin: 20px auto;
+		max-width: 84%;
+
+		@include mq(tabletp) {
+			margin: 30px auto;
+			max-width: 64%;
 		}
 
 		@include mq(laptop) {
