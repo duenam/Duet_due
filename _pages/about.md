@@ -11,8 +11,10 @@ featured_image: /images/about/img_due.jpeg
 Jakin corp.에서 <a href="https://www.watchbot.co.kr/" target="_blank">Watchbot</a>이라는 서비스를 만들고 있습니다.
 <br>
 <br>
-코드에 친숙하며 가끔 그림을 그립니다.<br>
-디지털도구를 익히고 다루길 좋아합니다.<br>
+코드에 친숙하며, 가끔 그림을 그립니다.<br>
+(HTML&CSS와 약간의 JS를 다룰줄 압니다. 이 사이트는 Jeklly로 만들어보았습니다.)<br><br>
+
+디지털도구를 익히고 다루길 좋아합니다.<br><br>
 
 
 
