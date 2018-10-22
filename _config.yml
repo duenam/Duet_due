@@ -65,4 +65,4 @@ grid_columns:
 url:                "https://duenam.com" # the base hostname & protocol for your site
 # url:                "https://duenam.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
-baseurl:            "/" # the subpath of your site, e.g. /blog
+baseurl:            "/Duet_due" # the subpath of your site, e.g. /blog
