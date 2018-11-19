@@ -6,9 +6,9 @@ featured_image: /images/about/img_due.jpeg
 ---
 
 
-안녕하세요.남형주입니다.<br>
-삼성전자 모바일 UX 디자이너를 거쳐 스타트업을 창업해,<br>
-Jakin corp.에서 <a href="https://www.watchbot.co.kr/" target="_blank">Watchbot</a>이라는 서비스를 만들고 있습니다.
+안녕하세요.<br>
+<!-- 삼성전자 모바일 UX 디자이너를 거쳐 스타트업을 창업해,<br>
+Jakin corp.에서 <a href="https://www.watchbot.co.kr/" target="_blank">Watchbot</a>이라는 서비스를 만들고 있습니다. -->
 <br>
 <br>
 코드에 친숙하며, 가끔 그림을 그립니다.<br>
@@ -19,7 +19,7 @@ Jakin corp.에서 <a href="https://www.watchbot.co.kr/" target="_blank">Watchbot
 
 
 <hr>
-2016.11 - 현재<br>
+2016.11 - 2018.11<br>
 * Jakin corp. Co-founder & Designer <br>
 
 <hr>
