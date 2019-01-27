@@ -36,7 +36,7 @@ Jakin corp.에서 <a href="https://www.watchbot.co.kr/" target="_blank">Watchbot
 <hr>
 > SparkLabs Demoday <br>
 <a href="https://www.youtube-nocookie.com/embed/OCedARFnl2Y?start=87" target="_blank">영상 보기 </a> |
-<a href="http://platum.kr/archives/102173" target="_blank"> 기사 보기 </a> -->
-<hr>
+<a href="http://platum.kr/archives/102173" target="_blank"> 기사 보기 </a> 
+<hr> -->
 <a href="mailto:dueduenam@gmail.com" target="_blank">Email</a> : dueduenam@gmail.com<br>
 <a href="https://brunch.co.kr/@duenam#articles" target="_blank">Brunch</a><br>
